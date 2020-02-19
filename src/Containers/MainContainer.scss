@@ -1,0 +1,19 @@
+.main-container {
+    background-image: url('../assets/articles-pic.jpg');
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .articles-container {
+        background: #fff;
+        width: 75%;
+        height: 75%;
+        border-radius: 10px;
+        .articles-label {
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}

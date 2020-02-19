@@ -1,0 +1,61 @@
+@import "~toastr/toastr";
+
+#toast-container > div {
+  opacity: 1 !important;
+  width: 100%;
+  min-width: 300px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+#toast-container > .toast-success {
+  background-repeat: no-repeat;
+  background-color: #4dc472 !important;
+  color: #fff !important;
+  border: 1px solid #155724;
+  .toast-close-button {
+    position: absolute;
+    top: -5px;
+    right: 5px;
+    color: #fff !important;
+  }
+}
+
+#toast-container > .toast-error {
+  background-repeat: no-repeat;
+  background-color: #d64c4a !important;
+  color: #fff !important;
+  border: 1px solid #721c24;
+  .toast-close-button {
+    color: #fff !important;
+    position: absolute;
+    top: -5px;
+    right: 5px;
+
+  }
+}
+
+#toast-container > .toast-info {
+  background-repeat: no-repeat;
+  background-color: #D1ECF1 !important;
+  color: #31708F !important;
+  border: 1px solid #31708F;
+  .toast-close-button {
+    color: #31708F !important;
+    position: absolute;
+    top: -5px;
+    right: 5px;
+  }
+}
+
+#toast-container > .toast-warning {
+  background-repeat: no-repeat;
+  background-color: #FFF3CD !important;
+  color: #8a6d3b !important;
+  border: 1px solid #8a6d3b;
+  .toast-close-button {
+    color: #8a6d3b !important;
+    position: absolute;
+    top: -5px;
+    right: 5px;
+  }
+}
